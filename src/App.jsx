@@ -17,14 +17,14 @@ function App() {
 
   return (
     <div className="App">
-      <h1>📝 React Notes App</h1>
+      <h1> React Notes App</h1>
 
       {/* Input and Button */}
       <input
         type="text"
         value={note}
         onChange={(e) => setNote(e.target.value)}
-        placeholder="Type your note here..."
+        placeholder="Type your note here"
       />
       <button onClick={addNote}>Add Note</button>
 
